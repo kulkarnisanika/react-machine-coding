@@ -1,0 +1,44 @@
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.search-bar-container {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: aliceblue;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.search-bar{
+    padding:12px;
+    color: black;
+    border: solid black 2px;
+    border-radius: 6px;
+    font-family:serif;
+    width: 100%;
+    
+}
+
+.result-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    height: auto;
+    background-color:azure;
+    padding-top: 24px;
+    height: auto;
+}
