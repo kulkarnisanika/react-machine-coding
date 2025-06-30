@@ -1,4 +1,5 @@
 import MainContainer from './problems/infinite-scroll/MainContainer';
+import ProgressBar from './problems/progress-bar/ProgressBar';
 import SearchBarDebounce from './problems/search-debouncing/SearchBarDebounce';
 import Home from './problems/theme-changer/Home';
 import TodoList from './problems/to-do-app/TodoList';
@@ -16,6 +17,7 @@ function App() {
         <Route path="/infinite-scoll" element={<MainContainer/>}></Route>
         <Route path="/to-do-app" element={<TodoList/>}></Route>
         <Route path="/theme-changer" element={<Home/>}></Route>
+        <Route path="/progress-bar" element={<ProgressBar/>}></Route>
         
       </Routes>
     </BrowserRouter>
