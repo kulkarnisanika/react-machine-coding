@@ -1,5 +1,6 @@
 import AutoComplete from './problems/autocomplete/AutoComplete';
 import MainContainer from './problems/infinite-scroll/MainContainer';
+import PaginationContainer from './problems/pagination/PaginationContainer';
 import ProgressBar from './problems/progress-bar/ProgressBar';
 import SearchBarDebounce from './problems/search-debouncing/SearchBarDebounce';
 import Home from './problems/theme-changer/Home';
@@ -19,7 +20,8 @@ function App() {
         <Route path="/to-do-app" element={<TodoList/>}></Route>
         <Route path="/theme-changer" element={<Home/>}></Route>
         <Route path="/progress-bar" element={<ProgressBar/>}></Route>
-         <Route path="/autocomplete" element={<AutoComplete/>}></Route>
+        <Route path="/autocomplete" element={<AutoComplete/>}></Route>
+        <Route path="/pagination" element={<PaginationContainer/>}></Route>
         
       </Routes>
     </BrowserRouter>
