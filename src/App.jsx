@@ -1,5 +1,6 @@
 import AutoComplete from './problems/autocomplete/AutoComplete';
 import MainContainer from './problems/infinite-scroll/MainContainer';
+import OtpInput from './problems/otp-input/OtpInput';
 import PaginationContainer from './problems/pagination/PaginationContainer';
 import ProgressBar from './problems/progress-bar/ProgressBar';
 import SearchBarDebounce from './problems/search-debouncing/SearchBarDebounce';
@@ -22,7 +23,7 @@ function App() {
         <Route path="/progress-bar" element={<ProgressBar/>}></Route>
         <Route path="/autocomplete" element={<AutoComplete/>}></Route>
         <Route path="/pagination" element={<PaginationContainer/>}></Route>
-        
+        <Route path="/otp-input" element={<OtpInput/>}></Route>
       </Routes>
     </BrowserRouter>
   )
