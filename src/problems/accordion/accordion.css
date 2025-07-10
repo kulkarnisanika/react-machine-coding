@@ -1,0 +1,40 @@
+.accordion{
+    width: 400px;
+    margin: 12px;
+    border-radius: 12px;
+}
+
+.accordion-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: medium;
+    font-weight: bolder;
+    border: solid gray 1px;
+    background-color: gainsboro;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.accordion-details{
+    display: flex;
+    padding: 12px;
+    border: solid gray 1px;
+    background-color: azure;
+    height: 50px;
+    align-items: center;
+    border-radius: 4px;;
+}
+
+.expand-button{
+    cursor: pointer;
+    color: black;
+    width: 25px;
+    height: 25px;
+    background-color: yellow;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+}

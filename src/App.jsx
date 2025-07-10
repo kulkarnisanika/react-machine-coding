@@ -1,3 +1,4 @@
+import AccordionList from './problems/accordion/AccordionList';
 import AutoComplete from './problems/autocomplete/AutoComplete';
 import MainContainer from './problems/infinite-scroll/MainContainer';
 import OtpInput from './problems/otp-input/OtpInput';
@@ -24,6 +25,7 @@ function App() {
         <Route path="/autocomplete" element={<AutoComplete/>}></Route>
         <Route path="/pagination" element={<PaginationContainer/>}></Route>
         <Route path="/otp-input" element={<OtpInput/>}></Route>
+        <Route path="/accordion" element={<AccordionList/>}></Route>
       </Routes>
     </BrowserRouter>
   )
