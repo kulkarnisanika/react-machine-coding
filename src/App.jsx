@@ -5,6 +5,7 @@ import OtpInput from './problems/otp-input/OtpInput';
 import PaginationContainer from './problems/pagination/PaginationContainer';
 import ProgressBar from './problems/progress-bar/ProgressBar';
 import SearchBarDebounce from './problems/search-debouncing/SearchBarDebounce';
+import { SearchContainer } from './problems/search-product/SearchContainer';
 import Home from './problems/theme-changer/Home';
 import TodoList from './problems/to-do-app/TodoList';
 import TrafficLight from './problems/traffic-light/TrafficLight'
@@ -26,6 +27,7 @@ function App() {
         <Route path="/pagination" element={<PaginationContainer/>}></Route>
         <Route path="/otp-input" element={<OtpInput/>}></Route>
         <Route path="/accordion" element={<AccordionList/>}></Route>
+        <Route path="/search-product" element={<SearchContainer/>}></Route>
       </Routes>
     </BrowserRouter>
   )
